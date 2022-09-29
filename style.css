@@ -1,0 +1,114 @@
+
+        /* *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            height: 35%;
+            min-width: 340px;
+            margin: auto;
+            top: 50px;
+            left:0%;
+            right: 0;
+            padding: 30px 0;
+            border-radius: 8px;
+        } */
+
+        #root {
+
+
+            position: relative;
+            padding: 30px 15px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+            width: 70%;
+            position: relative;
+            margin: auto;
+            margin-bottom: 100px;
+            width: 700px;
+        } 
+
+        /* #root input {
+            border-radius: ;
+            width: 70%;
+            height: 45px;
+            font-size: 15px;
+            border: 2px solid #d1d3d4;
+            padding: 12px;
+            color: #111111;
+            font-weight: 500;
+            position: relative;
+        }
+
+        #root input:focus{
+            outline: none;
+            border-color: #19A68C;
+        }
+
+        #root button{
+
+            position: relative;
+            float: right;
+            width: 60px;
+            height: 43px;
+            border-radius: 3px;
+            font-weight: 500;
+            font-size: 16px;
+            background: #19A68C;
+            color: #fff;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }*/
+        #root ul{
+            width: 500px;
+            margin: auto;
+            position: relative;
+            /* padding: auto; */
+            padding-left: 0;
+        }
+
+        #root ul li{
+            display: flex;
+            width: 500px;
+            position: relative;
+            margin-top: 30px;
+            background: #fff;
+            /* padding: 30px 20px; */
+            border-radius: 5px;
+            justify-content: space-between;
+            text-align: left;
+        } 
+
+        #root ul li button{
+            margin-left: 70px;
+            /* padding-top: 2px;
+             */
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: 0px;
+            /* position: left; */
+            /* align-items:left; */
+            /* float: left; */
+        }
+        
+        #root div div input{
+            margin: auto auto auto auto;
+            padding: auto;
+            width: 350px;
+            /* size: 600px; */
+            /* font-size: 20px; */
+        }
+        #root div div button{
+
+            margin: auto 0 auto 0px;
+        }
+
+        .new {
+            width: 500px;
+            margin: auto;
+        }
