@@ -51,10 +51,12 @@
             }
 
             addTask = () => {
+                if (this.state.input !== ""){
                 this.setState(state => ({
                     list:[...state.list, state.input],
                     input: ""
                 }))
+                }
             }
 
             deleteTask = (index) => {
